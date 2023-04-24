@@ -4,39 +4,51 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-	<div class="calculator-wrapper">
+
 	
-    <div class="row">
-			<button class="button">C</button>
-			<button class="button">&#8592;</button>
-			<button class="button">&#247;</button>
+	<div class="calculator-wrapper">
+
+		<div id="calculator-display"></div>
+
+		<div class="row1">
+			<button class="button long-button" id="button-0">0</button>
+			
 		</div>
-		<div class="row">
-			<button class="button">7</button>
-			<button class="button">8</button>
-			<button class="button">9</button>
-			<button class="button">x</button>
+    <div class="row2">
+			<button class="button long-button" id="button-clear">C</button>
+			<button class="button" id="button-backspace">&#8592;</button>
+			<button class="button math" id="button-divide">&#247;</button>
 		</div>
-		<div class="row">
-			<button class="button">4</button>
-			<button class="button">5</button>
-			<button class="button">6</button>
-			<button class="button">-</button>
+		<div class="row3">
+			<button class="button" id="button-7">7</button>
+			<button class="button" id="button-8">8</button>
+			<button class="button" id="button-9">9</button>
+			<button class="button math" id="button-multiply">x</button>
 		</div>
-		<div class="row">
-			<button class="button">1</button>
-			<button class="button">2</button>
-			<button class="button">3</button>
-			<button class="button">+</button>
+		<div class="row4">
+			<button class="button" id="button-4">4</button>
+			<button class="button" id="button-5">5</button>
+			<button class="button" id="button-6">6</button>
+			<button class="button math" id="button-subtract">-</button>
 		</div>
-		<div class="row">
-			<button class="button">0</button>
-			<button class="button">=</button>
+		<div class="row5">
+			<button class="button" id="button-1">1</button>
+			<button class="button" id="button-2">2</button>
+			<button class="button" id="button-3">3</button>
+			<button class="button math" id="button-add">+</button>
+		</div>
+		<div class="row6">
+			<button class="custom-class" id="button-decimal">.</button>
+			<button class="button math" id="button-equals">=</button>
 		</div>
 	</div>
+
+	<script src="main.js"></script>
+
 </body>
+
 </html>
